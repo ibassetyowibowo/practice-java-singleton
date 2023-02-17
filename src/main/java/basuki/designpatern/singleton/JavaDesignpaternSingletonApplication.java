@@ -7,7 +7,15 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class JavaDesignpaternSingletonApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(JavaDesignpaternSingletonApplication.class, args);
+		// SpringApplication.run(JavaDesignpaternSingletonApplication.class, args);
+
+		OrderServices order = new OrderServices();
+
+		OrderDetailServices orderDetail = new OrderDetailServices();
+
+
+
+
 	}
 
 }
